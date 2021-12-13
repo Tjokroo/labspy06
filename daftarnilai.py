@@ -1,41 +1,18 @@
-# labspy06
-## BAHASA PEMOGRAMAN
-
-### Fungsi penggunaan dalam python
-- Gambar dibawah ini merupakan flowchart nya
-![gambar1](ss/ss1.png)
-
-#### Dengan keterangan
-
-- Dibawah ini adalah code untuk meng-import, karena kita akan gunakan system, untuk mendapatkan clear screen yang ada dalam system os, berikut code nya:
-
-```python
 from os import system
-```
-
-- Dibawah ini code untuk membuat list yang akan kita gunakan.
-
-```python
 s_nama = []
 s_nim = []
 s_tugas = []
 s_uts = []
 s_uas = []
 s_akhir = []
-```
 
-- Dibawah ini code untuk membuat fungsi judul, karena didalam fungsi, kita dapat memanggil fungsi tersebut berkali-kali tanpa harus mengulang codingannya. 
 
-```python
 def judul():
     print('==================================')
     print('|     Daftar Nilai Mahasiswa     |')
     print('==================================')
-```
 
-- Dibawah adalah code untuk membuat fungsi menu
 
-```python
 def menu():
     system('cls')
     print('=====================================')
@@ -62,14 +39,8 @@ def menu():
         tidak = input('Menu Tidak Ada')
         system('cls')
         menu()
-```
 
-- berikut tampilan ketika program dijalankan
-![gambar2](ss/ss2.png)
 
-- code dibawah untuk membuat fungsi tambah yang ada dalam program ini
-
-```python
 def tambah():
     system('cls')
     judul()
@@ -98,14 +69,8 @@ def tambah():
     print('Data Tersimpan'.center(40))
     kembali = input('Kembali [Enter]')
     menu()
-```
 
-- berikut tampilan ketika program dijalankan
-![gambar3](ss/ss3.png)
 
-- Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
-
-```python
 def tampilkan():
     system('cls')
     judul()
@@ -121,14 +86,7 @@ def tampilkan():
         print('-----------------------------')
     kembali = input('Kembali Tekan [Enter]')
     menu()
-```
 
-- berikut tampilan ketika program dijalankan
-![gambar4](ss/ss4.png)
-
-
-- Code dibawah adalah untuk membuat fungsi merubah nama pada program ini.
-```python
 def ubah():
     rubah = input('Ubah Biodata Tekan [B]   : ')
     if rubah == 'B' or rubah == 'b':
@@ -140,13 +98,7 @@ def ubah():
             s_nama[i] = namabaru
     kembali = input('Kembali Tekan [Enter]')
     menu()
-```
-- Berikut tampilan ketika program dijalankan, setelah ada perubahan data pada nomor urut 1
-![gambar5](ss/ss5.png)
 
-- Code dibawah adalah untuk membuat fungsi hapus data yang sudah tertampung di dalam program.
-
-```python
 def hapus():
     system('cls')
     judul()
@@ -169,11 +121,9 @@ def hapus():
     print('Data Berhasil Di Hapus')
     kembali = input('Kembali Tekan [Enter]')
     menu()
-```
 
-- berikut tampilan ketika program dijalankan, dan menghapus data urut nomor 1
+def selesai():
+    system('cls')
+    menu()
 
-![gambar6](ss/ss6.png)
-
-## Sekian Dari Saya 
-# Terima kasih
+menu()
