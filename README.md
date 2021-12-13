@@ -3,6 +3,7 @@
 
 ### Fungsi penggunaan dalam python
 - Gambar dibawah ini merupakan flowchart nya
+
 ![gambar1](ss/ss1.png)
 
 #### Dengan keterangan
@@ -65,6 +66,7 @@ def menu():
 ```
 
 - berikut tampilan ketika program dijalankan
+
 ![gambar2](ss/ss2.png)
 
 - code dibawah untuk membuat fungsi tambah yang ada dalam program ini
@@ -101,6 +103,7 @@ def tambah():
 ```
 
 - berikut tampilan ketika program dijalankan
+
 ![gambar3](ss/ss3.png)
 
 - Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
@@ -124,6 +127,7 @@ def tampilkan():
 ```
 
 - berikut tampilan ketika program dijalankan
+
 ![gambar4](ss/ss4.png)
 
 
@@ -142,6 +146,7 @@ def ubah():
     menu()
 ```
 - Berikut tampilan ketika program dijalankan, setelah ada perubahan data pada nomor urut 1
+
 ![gambar5](ss/ss5.png)
 
 - Code dibawah adalah untuk membuat fungsi hapus data yang sudah tertampung di dalam program.
